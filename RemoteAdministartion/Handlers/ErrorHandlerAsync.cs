@@ -9,7 +9,7 @@ namespace RemoteAdministration_Bot.Handlers
     {
         public static async Task Handler(ITelegramBotClient botClient, Exception exception, CancellationToken cancellationToken)
         {
-
+            Console.WriteLine(exception);
         }
     }
 }
